@@ -1,0 +1,16 @@
+apply plugin: 'java-library'
+apply plugin: 'java'
+
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation 'com.google.auto.service:auto-service:1.0-rc2'
+    // square 开源的代码生成框架，通过API生成指定格式（修饰符 返回值 参数 函数体）的代码
+    implementation 'com.squareup:javapoet:1.10.0'
+    implementation project(':annotation_ann')
+
+
+}
+
+sourceCompatibility = "1.7"
+targetCompatibility = "1.7"

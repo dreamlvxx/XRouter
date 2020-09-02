@@ -1,0 +1,5 @@
+include ':annotation-api'
+include ':annotation_ann'
+include ':annotation-complier'
+include ':app'
+rootProject.name = "XXRouter"
