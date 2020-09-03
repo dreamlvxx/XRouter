@@ -1,7 +1,6 @@
 package com.dream.annotation_complier;
 
-import com.dream.annotation_ann.Field;
-import com.dream.annotation_ann.Route;
+import com.dream.annotation_ann.annotion.Field;
 import com.google.auto.service.AutoService;
 
 import java.util.HashSet;
@@ -17,7 +16,7 @@ import javax.lang.model.element.TypeElement;
 
 @SupportedSourceVersion(SourceVersion.RELEASE_8)
 @AutoService(Processor.class)
-public class FidleProcessor extends AbstractProcessor {
+public class FieldProcessor extends BaseProcessor {
 
     @Override
     public boolean process(Set<? extends TypeElement> set, RoundEnvironment roundEnvironment) {

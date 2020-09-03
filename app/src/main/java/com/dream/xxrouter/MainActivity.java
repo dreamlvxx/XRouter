@@ -4,6 +4,10 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
+import com.dream.annotation_ann.annotion.Route;
+
+
+@Route(path = "main_activity")
 public class MainActivity extends AppCompatActivity {
 
     @Override
