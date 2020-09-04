@@ -10,13 +10,7 @@ import java.util.concurrent.ThreadFactory;
 import java.util.concurrent.ThreadPoolExecutor;
 import java.util.concurrent.TimeUnit;
 
-/**
- * Executors
- *
- * @author 正纬 <a href="mailto:zhilong.liu@aliyun.com">Contact me.</a>
- * @version 1.0
- * @since 16/4/28 下午4:07
- */
+
 public class DefaultPoolExecutor extends ThreadPoolExecutor {
     //    Thread args
     private static final int CPU_COUNT = Runtime.getRuntime().availableProcessors();
