@@ -7,20 +7,23 @@ import android.util.Log;
 
 import com.dream.annotation_ann.model.RouteMeta;
 import com.dream.annotation_api.core.RouterMap;
+import com.dream.annotation_api.template.IFieldHelper;
 import com.dream.annotation_api.template.IRouterMap;
 import com.dream.annotation_api.utils.ClassUtils;
 
 import java.io.IOException;
 import java.lang.reflect.InvocationTargetException;
 import java.util.HashMap;
+import java.util.Map;
 import java.util.Set;
 
 import static com.dream.annotation_api.Consts.Contants.GENERATE_FILE_PATH;
+import static com.dream.annotation_api.Consts.Contants.GENERATE_HELPER_PATH;
 
 public class Router {
 
     private static final String TAG = "Router";
-    private HashMap<String,Object> mFields = new HashMap<>();
+    private HashMap<String,String> mFields = new HashMap<>();
 
     private static String mPath;
     private Class<?> dst;
@@ -70,7 +73,7 @@ public class Router {
         return this;
     }
 
-    public Router setField(String key,Object obj){
+    public Router setField(String key,String obj){
         mFields.put(key,obj);
         return this;
     }
@@ -80,6 +83,10 @@ public class Router {
             if (null != meta){
                 Class<?> clazz = meta.getDestination();
                 Intent t = new Intent(context,clazz);
+                for (Map.Entry<String, String> entry:mFields.entrySet()){
+                    t.putExtra(entry.getKey(),entry.getValue());
+
+                }
                 context.startActivity(t);
             }else{
                 Log.e(TAG, "navigation: check if dst registered or not");
@@ -93,5 +100,25 @@ public class Router {
         }
 
         return true;
+    }
+
+    public void inject(Object obj){
+        String name = GENERATE_HELPER_PATH;
+        name += ".";
+        name += obj.getClass().getSimpleName();
+        name += "Helper";
+        try {
+            ((IFieldHelper)(Class.forName(name).getConstructor().newInstance())).inject(obj);
+        } catch (IllegalAccessException e) {
+            e.printStackTrace();
+        } catch (InstantiationException e) {
+            e.printStackTrace();
+        } catch (InvocationTargetException e) {
+            e.printStackTrace();
+        } catch (NoSuchMethodException e) {
+            e.printStackTrace();
+        } catch (ClassNotFoundException e) {
+            e.printStackTrace();
+        }
     }
 }

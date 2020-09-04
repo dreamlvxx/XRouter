@@ -24,7 +24,10 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Router.init(getApplicationContext());
-                Router.getInstance().setPath("main2").navigation(MainActivity.this);
+                Router.getInstance()
+                        .setPath("main2")
+                        .setField("myField","ioioioss")
+                        .navigation(MainActivity.this);
             }
         });
     }
