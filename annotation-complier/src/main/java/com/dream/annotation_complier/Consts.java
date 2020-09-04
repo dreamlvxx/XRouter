@@ -1,6 +1,6 @@
 package com.dream.annotation_complier;
 
-public class Consts {
+public final class Consts {
     public static final String ANNOTATION_API_PACKAGE = "com.dream.annotation_api";
     public static final String TEMPLATE_PACKAGE = ".template";
     public static final String TEMPLETE_IROUTERMAP = ANNOTATION_API_PACKAGE + TEMPLATE_PACKAGE + ".IRouterMap";

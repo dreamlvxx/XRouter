@@ -5,5 +5,5 @@ import com.dream.annotation_ann.model.RouteMeta;
 import java.util.HashMap;
 
 public class RouterMap {
-    static HashMap<String, RouteMeta> map = new HashMap<>();
+    public static HashMap<String, RouteMeta> map = new HashMap<>();
 }
