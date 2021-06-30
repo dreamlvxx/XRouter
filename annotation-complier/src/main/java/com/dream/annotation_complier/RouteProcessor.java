@@ -23,6 +23,7 @@ import javax.lang.model.SourceVersion;
 import javax.lang.model.element.Element;
 import javax.lang.model.element.Modifier;
 import javax.lang.model.element.TypeElement;
+import javax.lang.model.type.DeclaredType;
 import javax.lang.model.type.TypeMirror;
 import javax.tools.JavaFileObject;
 
@@ -66,17 +67,26 @@ public class RouteProcessor extends BaseProcessor {
 
         for (Element element : routes) {
             TypeMirror typeMirror = element.asType();
+            if (typeMirror instanceof DeclaredType){
+                DeclaredType declaredType = (DeclaredType) typeMirror;
+                declaredType.getTypeArguments();
+            }
             if (types.isSubtype(typeMirror, type_Activity)) {
                 Route route = element.getAnnotation(Route.class);
-
                 loadIntoMethod.addStatement(
                         "map.put($S,new RouteMeta($S,$T.class))",
                         route.path(),
                         route.path(),
-                        ClassName.get((TypeElement) element)
+                        ClassName.get(typeMirror)
                 );
             }
         }
+
+        loadIntoMethod.beginControlFlow("if(true)");
+        loadIntoMethod.addStatement("android.util.Log.e(\"xxx\",\"aaaaaaaaaa\");");
+        loadIntoMethod.endControlFlow();
+
+        loadIntoMethod.addCode("android.util.Log.e(\"xxx\",\"aaaaaaaaaa\");");
         try {
             JavaFile.builder(GENERATE_FILE_ROUTE,
                     TypeSpec.classBuilder(CLASS_ROUMAP_NAME)

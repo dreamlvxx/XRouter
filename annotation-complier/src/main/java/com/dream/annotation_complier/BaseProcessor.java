@@ -12,9 +12,9 @@ import javax.lang.model.util.Types;
 
 public class BaseProcessor extends AbstractProcessor {
 
-    Filer mFiler;
-    Types types;
-    Elements elementUtils;
+    protected Filer mFiler;
+    protected Types types;
+    protected Elements elementUtils;
 
     @Override
     public synchronized void init(ProcessingEnvironment processingEnvironment) {

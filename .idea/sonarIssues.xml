@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="issues">
+    <option name="index">
+      <map>
+        <entry key="/Dummy.txt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="/a.dummy">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../Emial_Oppo/email/AndroidMail/build/generated/ap_generated_sources/globalDebug/out/com/wps/multiwindow/bean/Generated_MuAccountDao_Impl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../Emial_Oppo/email/AndroidMail/res/layout/folder_list.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../Emial_Oppo/email/AndroidMail/src/com/kingsoft/mail/adapter/DrawerItem.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../Emial_Oppo/email/AndroidMail/src/com/kingsoft/mail/ui/FolderListFragment.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../Emial_Oppo/email/AndroidMail/src/main/java/com/kingsoft/bankbill/BankBillsService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../Emial_Oppo/email/AndroidMail/src/main/java/com/kingsoft/email/LoadSpamClassify.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../Emial_Oppo/email/AndroidMail/src/main/java/com/kingsoft/email/MailInitTask.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../Emial_Oppo/email/AndroidMail/src/main/java/com/kingsoft/email/activity/setup/AccountAddActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../Emial_Oppo/email/AndroidMail/src/main/java/com/kingsoft/email/activity/setup/AccountCheckSettingsFragment.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../Emial_Oppo/email/AndroidMail/src/main/java/com/kingsoft/email/mail/transport/SmtpSender.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../Emial_Oppo/email/AndroidMail/src/main/java/com/kingsoft/email/statistics/COM_URL.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../Emial_Oppo/email/AndroidMail/src/main/java/com/kingsoft/email/statistics/URLMap.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../Emial_Oppo/email/AndroidMail/src/main/java/com/kingsoft/email2/ui/MailActivityEmail.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../Emial_Oppo/email/AndroidMail/src/main/java/com/kingsoft/emailcommon/utility/SSLUtils.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../Emial_Oppo/email/AndroidMail/src/main/java/com/kingsoft/exchange/service/EasOutboxSyncHandler.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../Emial_Oppo/email/AndroidMail/src/main/java/com/kingsoft/mail/preferences/SharePreferenceUtil.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../Emial_Oppo/email/AndroidMail/src/main/java/com/kingsoft/mail/ui/AbstractActivityController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../Emial_Oppo/email/AndroidMail/src/main/java/com/kingsoft/mail/ui/AbstractConversationViewFragment.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../Emial_Oppo/email/AndroidMail/src/main/java/com/kingsoft/mail/ui/SecureConversationViewFragment.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../Emial_Oppo/email/AndroidMail/src/main/java/com/kingsoft/pushmessage/MipushUtils.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../Emial_Oppo/email/AndroidMail/src/main/java/com/kingsoft/special/GrayRelease.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../Emial_Oppo/email/AndroidMail/src/main/java/com/wps/mail/settings/AccountSettingsFragment.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../Emial_Oppo/email/AndroidMail/src/main/java/com/wps/multiwindow/dao/ContactDao.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../Emial_Oppo/email/AndroidMail/src/main/res/layout/set_att_save_path_actionbar.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../Emial_Oppo/email/AndroidMail/src/main/res/values-zh-rCN/strings.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../Emial_Oppo/email/AndroidMail/src/main/res/xml/settings_preferences.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../Emial_Oppo/email/ZAnno_BaseAnnoLib/src/main/java/com/Vinctor/VLog.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../Emial_Oppo/email/ZAnno_query_compiler/src/main/java/com/kingsoft/query_compiler/QueryProcessor.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../Emial_Oppo/email/ZAnno_query_compiler/src/main/java/com/kingsoft/query_compiler/generate/AbstractCodeGenerater.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../Emial_Oppo/email/gradle/wrapper/gradle-wrapper.properties">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../Emial_Oppo/email/query_compiler/src/main/java/com/kingsoft/query_compiler/generate/GenetateManager.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../Emial_Oppo/email/query_compiler/src/main/java/com/kingsoft/query_compiler/generate/LiveDataSingleBeanGenerater.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../Emial_Oppo/email/query_compiler/src/main/java/com/kingsoft/query_compiler/generate/SingleBeanGenerater.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/annotation-api/src/main/java/com/dream/annotation_api/launcher/Router.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/annotation-complier/src/main/java/com/dream/annotation_complier/BaseProcessor.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/annotation-complier/src/main/java/com/dream/annotation_complier/DProcessor.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/annotation-complier/src/main/java/com/dream/annotation_complier/RouteProcessor.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/annotation-complier/src/main/java/com/dream/annotation_complier/base/BaseProcessor.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/annotation-complier/src/main/java/com/dream/annotation_complier/base/EntityHandler.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/annotation-complier/src/main/java/com/dream/annotation_complier/base/OnRegulaListener.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/annotation-complier/src/main/java/com/dream/annotation_complier/base/VLog.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/annotation-complier/src/main/java/com/dream/annotation_complier/base/Vprocessor.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/annotation-complier/src/main/java/com/dream/annotation_complier/base/XLog.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/annotation-complier/src/main/java/com/dream/annotation_complier/base/bean/ClassEntity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/annotation-complier/src/main/java/com/dream/annotation_complier/base/bean/Entity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/annotation-complier/src/main/java/com/dream/annotation_complier/base/bean/FieldEntity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/annotation-complier/src/main/java/com/dream/annotation_complier/base/bean/MethodEntity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/annotation_ann/src/main/java/com/dream/annotation_ann/annotion/Dann.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/annotation_ann/src/main/java/com/dream/annotation_ann/annotion/Para.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/build/generated/source/apt/debug/com/dream/xrouter/routes/XRouterMap.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/dream/xxrouter/GenaTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/dream/xxrouter/MainActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/dream/xxrouter/MyPara.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/dream/xxrouter/TestInterface.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

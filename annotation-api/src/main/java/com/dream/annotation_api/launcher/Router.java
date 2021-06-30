@@ -21,7 +21,6 @@ import static com.dream.annotation_api.Consts.Contants.GENERATE_FILE_PATH;
 import static com.dream.annotation_api.Consts.Contants.GENERATE_HELPER_PATH;
 
 public class Router {
-
     private static final String TAG = "Router";
     private HashMap<String,String> mFields = new HashMap<>();
 
@@ -85,7 +84,6 @@ public class Router {
                 Intent t = new Intent(context,clazz);
                 for (Map.Entry<String, String> entry:mFields.entrySet()){
                     t.putExtra(entry.getKey(),entry.getValue());
-
                 }
                 context.startActivity(t);
             }else{

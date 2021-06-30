@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
+        android.util.Log.e("xxx","aaaaaaaaaa");
         tv_btn = findViewById(R.id.tv_btn);
         tv_btn.setOnClickListener(new View.OnClickListener() {
             @Override
