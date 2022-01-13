@@ -183,6 +183,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/annotation-complier/build.gradle">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/annotation-complier/src/main/java/com/dream/annotation_complier/BaseProcessor.java">
           <value>
             <set />
@@ -258,6 +263,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/app/build.gradle">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/app/build/generated/source/apt/debug/com/dream/xrouter/routes/XRouterMap.java">
           <value>
             <set />
@@ -289,6 +299,36 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/build.gradle">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../everythinggo/EverythingGo/app/build.gradle">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../everythinggo/EverythingGo/app/src/main/java/com/dream/everythinggo/HomeActivity.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../everythinggo/EverythingGo/app/src/main/java/com/dream/everythinggo/MyCLass.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../everythinggo/EverythingGo/test_processor/build.gradle">
           <value>
             <set />
           </value>
